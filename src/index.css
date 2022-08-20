@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: #ffffff;
+}
+
+.container-fluid {
+  background-color: #0288d1;
+}
+
+.containerComp{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+
+}
+
+.comp {
+  background-color: #005b9f;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1em;
+  color: #ffffff;
+  display: flex;
+  height: 20em;
+  width: 20em;
+}
+
+.formClass input {  
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.error {
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  color: white;  
+}
+
+
